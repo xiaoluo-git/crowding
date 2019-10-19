@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: cloud-consumer-user-resttemplate
+server:
+  port: 9001
+eureka:
+  client:
+    service-url:
+      default-Zone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true 

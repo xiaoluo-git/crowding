@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: cloud-provider-movie
+eureka:
+  client:
+    service-url:
+      default-Zone: http://loaclhost:8761/eureka/
+  instance:
+    prefer-ip-address: true #注册自己服务使用ip的方式
